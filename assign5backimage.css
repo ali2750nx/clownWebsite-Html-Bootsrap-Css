@@ -1,53 +1,69 @@
-.start{
-    text-decoration: none;
-    color: yellow;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: bold;
-}
+ .banner {
+      background-image: url('/images/figmapic.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 
+    .bt1,
+    .bt2 {
+      padding: 10px 25px;
+      border: none;
+      font-weight: 600;
+      border-radius: 50px;
+    }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+    .bt1 {
+      background-color: #ffcc00;
+      color: black;
+    }
 
-.myheader{
-    background-color: black;
-}
+    .bt2 {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+    }
 
+    .bt1:hover {
+      background-color: #ffd633;
+    }
 
-.pclass{
-justify-content: center;
-font-size: 30px;
-font-style: italic;
-display: flex;
+    .bt2:hover {
+      background-color: white;
+      color: black;
+    }
 
-}
-.btn{
-  font-size: 30px;
-  justify-content: center;
-  font-weight: bold;
-  color: white;
-  background-color: yellow;
-  font-style: normal;
-  align-items: center;
-  display: flex;
-}
+    .place-img img {
+      width: 100%;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
 
-.h1{
-    font-weight: bold;
-}
-.p{
-    font-style: italic;
-}
-.p1{
-  font-weight: bold;
+    .place-img img:hover {
+      transform: scale(1.05);
+    }
 
-}
-.w4{
-    font-size: small;
-    justify-content: center;
-    font-style: italic;
+    .service-card {
+      border: none;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
 
-}
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+    }
+
+    footer a {
+      color: #bbb;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: white;
+    }
